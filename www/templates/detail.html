@@ -1,5 +1,11 @@
 <ion-view view-title="Detail">
-  <ion-content>
-    Detail page
+  <ion-content scroll="true" overflow-scroll="false">
+    <div class="item item-image" ng-repeat="activity in activities | filter: {productId: specificActivity}">
+      <img class="imageDetail" ng-src={{activity.mediumSizeUrl}}>
+      <ion-item class="item item-text-wrap">
+        <p>Description:</p>
+        <div ng-bind-html="description"></div>
+      </ion-item>
+    </div>
   </ion-content>
 </ion-view>

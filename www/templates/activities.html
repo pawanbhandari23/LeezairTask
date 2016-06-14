@@ -1,5 +1,15 @@
 <ion-view view-title="Activities">
-  <ion-content>
-    <h1>Activities Page</h1>
+  <ion-content scroll="true" overflow-scroll="false">
+    <a ng-repeat="activity in activities | filter: query" href="#/app/activities/{{activity.productId}}">
+      <div class="list card">
+        <ion-item class="item-image">
+          <img class="activityImage" ng-src={{activity.mediumSizeUrl}} alt="no image">
+        </ion-item>
+        <ion-item class="ïtem-left">
+          {{activity.productName}} - ${{activity.advertisedPrice}}
+        </ion-item>
+      </div>
+    </a>
+    </div>
   </ion-content>
 </ion-view>

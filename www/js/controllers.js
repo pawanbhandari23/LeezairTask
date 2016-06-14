@@ -10,7 +10,23 @@ angular.module('starter.controllers', [])
   })
 
   .controller('activityCtrl', function ($scope, $http, $state) {
-   
+    $http.get('activities.json').success(function (data) {
+      $scope.allData = data;
+      $scope.activities = $scope.allData.data.activities;
+      $scope.specificActivity = $state.params.activityId;
+      $scope.filteredActivity = 'activity-' + $scope.specificActivity;
+      if ($scope.specificActivity !== undefined) {
+        $http.get('activity-' + $scope.specificActivity + '.json').success(function (data) {
+          $scope.detailData = data;
+          $scope.detailActivity = $scope.detailData.data;
+          $scope.provider = $scope.detailActivity.provider.providerName;
+          $scope.description = $scope.detailActivity.description;
+        }).error(function (data1, data2) {
+          console.log(data1);
+          console.log(data2);
+        });
+      }
+    });
   })
 
 

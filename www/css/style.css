@@ -1,1 +1,8 @@
 /* Custom CSS */
+a, u {
+  text-decoration: none;
+}
+
+.activityImage{
+  max-height: 200px;
+}
