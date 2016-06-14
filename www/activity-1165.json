@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "data": {
+    "title": {
+      "shortDescription": "A feast for the senses",
+      "longDescription": "This one is truly a feast for all the senses!",
+      "subText": "",
+      "duration": "",
+      "price": 445,
+      "image": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/spa-pamper-massage_med.jpg",
+      "locality": "Pokolbin"
+    },
+    "location": {
+      "address": "",
+      "latitude": "-32.7816759",
+      "longitude": "151.3434953",
+      "distance": 43.8,
+      "distanceText": "43km from Newcastle"
+    },
+    "rating": {
+      "numberOfRatings": 0,
+      "averageRating": null
+    },
+    "provider": {
+      "providerId": 9999,
+      "providerName": "Hunter Valley Helicopters",
+      "countProducts": 20
+    },
+    "description": "<p>This one is truly a feast for all the senses! Start this extraordinary experience with a spectacular scenic flight over the Hunter Valley wine region and be greeted by sensational views. Youâ??ll then land at a local, multi-awarded restaurant in a beautiful part of the wine region.&nbsp;first its time to relax, your body will be pampered with a 1 hour massage each to loosen those tight spots and leave you feeling relaxed. then itâ??s your taste budsâ?? turn to be treated with a scrumptious 3 course lunch including a bottle of wine.&nbsp;</p><p>At the start of the flight the pilot will provide his contact details, so if you would like to experience the Hunter Valley independently or at your leisure you can call to arrange a pick up time that is suitable to you. Your private pilot will then fly you back to Cessnock airport (or your accommodation.)</p>",
+    "images": [
+      {
+        "url": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/spa-pamper-massage_med.jpg",
+        "description": "Photo 1/3"
+      },
+      {
+        "url": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/e0fe085fa24f4cc394fda58c3638e172emersons meal 1_med.jpg",
+        "description": "Photo 2/3"
+      },
+      {
+        "url": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/Hunter Valley Heli 2015-01-04 010_med.JPG",
+        "description": "Photo 3/3"
+      }
+    ],
+    "moreDetails": "Please Note: the maximum allowable individual passenger weight is 136kg and the maximum per 3 passenger flight is approximately  270kg. If you cannot comply to these restrictions please contact Hunter Valley Helicopters directly to discuss possible alternatives. \r\n\r\n'No show' Policy:\r\nA booking will be deemed invalid if either, notice of cancellation is not received at least 48 hours prior to the appointment time, or if the passenger(s) fail(s) to arrive at the nominated time and date.\r\n\r\nRefund Policy:\r\nA full refund will be made available to customers in the event of a cancellation of the flight by Hunter Valley Helicopters due to adverse weather conditions or any other unforeseen event within our control.\r\nCancellations made within 24 hours of the flight by client will result in a 25% cancellation fee.\r\n\r\nGift Vouchers:\r\nBookings are essential to redeem your certificate.\r\nA gift voucher will be deemed void if either, notice of cancellation is not received at least 24 hours prior to the appointment time, or the holder of the voucher fails to arrive at the booked time.\r\nGift Vouchers are valid for 6 months from date of purchase.\r\nGift certificates are non refundable and may not be redeemed for cash.\r\n\r\nPrivacy Policy:\r\nHunter Valley Helicopters will not disclose (share, sell or divulge) any personal information, such as address, e-mail, telephone and fax numbers, to third parties unless we have been authorized by you or are required to do so by law.\r\n\r\nFlight times:\r\nFlight times are a Guide only and may vary depending on  weather conditions and/or air traffic. "
+  }
+}

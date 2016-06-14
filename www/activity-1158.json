@@ -1,0 +1,50 @@
+{
+  "status": "success",
+  "data": {
+    "title": {
+      "shortDescription": "1843 Harvest Cafe",
+      "longDescription": "What a way to see the Hunter Valley Wine Region and enjoy some fresh food & great wines. 1843 Harvest Cafe is at Lindemanâ??s, where you can also have a Wine Tasting.",
+      "subText": "",
+      "duration": "",
+      "price": 225,
+      "image": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/1843 Harvest Cafe Photos By Chris Elfes 0005_med.jpg",
+      "locality": "Pokolbin"
+    },
+    "location": {
+      "address": "",
+      "latitude": "-32.7816759",
+      "longitude": "151.3434953",
+      "distance": 43.8,
+      "distanceText": "43km from Newcastle"
+    },
+    "rating": {
+      "numberOfRatings": 0,
+      "averageRating": null
+    },
+    "provider": {
+      "providerId": 9999,
+      "providerName": "Hunter Valley Helicopters",
+      "countProducts": 20
+    },
+    "description": "<p>What a way to see the Hunter Valley Wine Region and enjoy some fresh food &amp; great wines. 1843 Harvest Cafe is at&nbsp;<a href=\"http://www.lindemans.com/us/wines/9/hunter-valley\">Lindemanâ??s</a>, where you can also have a Wine Tasting.</p><p><b>Includes</b>:</p><p>15 min Scenic Flight over the Wine Region with lunch and return flight</p><ul><li>Pizza &amp; Sides, which includes a Glass of Wine.</li><li>Wood fired Knot loaf,Olive Oil, Raspberry Reduction, Dukka</li><li>3 varieties of Wood-fired Pizzas (Seasonal)</li><li>Smashed Chats, Sour Cream, Fried Shallots</li><li>Rocket, Pear &amp; Pecorino Salad with Caramalised Walnut Dressing</li><li>Pizza &amp; Sides are served in the middle of the table to share</li></ul>",
+    "images": [
+      {
+        "url": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/1843 Harvest Cafe Photos By Chris Elfes 0005_med.jpg",
+        "description": "Photo 1/4"
+      },
+      {
+        "url": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/Lindemans1_med.jpg",
+        "description": "Photo 2/4"
+      },
+      {
+        "url": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/Lindemans_med.jpg",
+        "description": "Photo 3/4"
+      },
+      {
+        "url": "https://d2jh4nh0bx3cra.cloudfront.net/PRODUCT_IMAGE/9999/Side Shot (2)_med.jpg",
+        "description": "Photo 4/4"
+      }
+    ],
+    "moreDetails": "Please Note: the maximum allowable individual passenger weight is 136kg and the maximum per 3 passenger flight is approximately  270kg. If you cannot comply to these restrictions please contact Hunter Valley Helicopters directly to discuss possible alternatives. \r\n\r\n'No show' Policy:\r\nA booking will be deemed invalid if either, notice of cancellation is not received at least 48 hours prior to the appointment time, or if the passenger(s) fail(s) to arrive at the nominated time and date.\r\n\r\nRefund Policy:\r\nA full refund will be made available to customers in the event of a cancellation of the flight by Hunter Valley Helicopters due to adverse weather conditions or any other unforeseen event within our control.\r\nCancellations made within 24 hours of the flight by client will result in a 25% cancellation fee.\r\n\r\nGift Vouchers:\r\nBookings are essential to redeem your certificate.\r\nA gift voucher will be deemed void if either, notice of cancellation is not received at least 24 hours prior to the appointment time, or the holder of the voucher fails to arrive at the booked time.\r\nGift Vouchers are valid for 6 months from date of purchase.\r\nGift certificates are non refundable and may not be redeemed for cash.\r\n\r\nPrivacy Policy:\r\nHunter Valley Helicopters will not disclose (share, sell or divulge) any personal information, such as address, e-mail, telephone and fax numbers, to third parties unless we have been authorized by you or are required to do so by law.\r\n\r\nFlight times:\r\nFlight times are a Guide only and may vary depending on  weather conditions and/or air traffic. "
+  }
+}
