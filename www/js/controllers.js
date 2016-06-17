@@ -5,11 +5,12 @@ angular.module('starter.controllers', [])
     // when they are recreated or on app start, instead of every page change.
     // To listen for when this page is active (for example, to refresh data),
     // listen for the $ionicView.enter event:
-    //$scope.$on('$ionicView.enter', function(e) {
-    //});
+    // $scope.$on('$ionicView.enter', function(e) {
+    //
+    // });
   })
 
-  .controller('activityCtrl', function ($scope, $http, $state) {
+  .controller('activityCtrl', function ($scope, $http, $state, $sce) {
     $http.get('activities.json').success(function (data) {
       $scope.allData = data;
       $scope.activities = $scope.allData.data.activities;
@@ -20,13 +21,20 @@ angular.module('starter.controllers', [])
           $scope.detailData = data;
           $scope.detailActivity = $scope.detailData.data;
           $scope.provider = $scope.detailActivity.provider.providerName;
-          $scope.description = $scope.detailActivity.description;
+          $scope.description = $sce.trustAsHtml($scope.detailActivity.description);
         }).error(function (data1, data2) {
           console.log(data1);
           console.log(data2);
         });
       }
+
+      $scope.getCity = function (a) {
+        var lastStr = a.lastIndexOf('/');
+        var finalStr = a.substring(lastStr + 1);
+        return finalStr;
+      }
     });
   })
+
 
 

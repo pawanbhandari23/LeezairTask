@@ -1,15 +1,18 @@
 <ion-view view-title="Activities">
   <ion-content scroll="true" overflow-scroll="false">
     <a ng-repeat="activity in activities | filter: query" href="#/app/activities/{{activity.productId}}">
-      <div class="list card">
-        <ion-item class="item-image">
-          <img class="activityImage" ng-src={{activity.mediumSizeUrl}} alt="no image">
-        </ion-item>
-        <ion-item class="ïtem-left">
-          {{activity.productName}} - ${{activity.advertisedPrice}}
-        </ion-item>
+      <div class="container">
+        <div class="subContainer">
+          <div class="item-image">
+            <img class="imgbox" ng-src={{activity.mediumSizeUrl}} alt="no image">
+          </div>
+          <div class="details">
+            <h3 class="mainHead">{{activity.productName}}</h3>
+            <p class="subHead" ng-bind="getCity(activity.timeZone)"></p>
+          </div>
+          <p class="price">${{activity.advertisedPrice}}</p>
+        </div>
       </div>
     </a>
-    </div>
   </ion-content>
 </ion-view>
