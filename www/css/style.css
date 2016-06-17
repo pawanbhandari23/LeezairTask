@@ -5,6 +5,7 @@ a, u {
 
 .caption {
   text-align: left;
+  font-weight: 500;
 }
 
 .container {
@@ -62,4 +63,11 @@ a, u {
 
 .imageDetail {
   max-height: 250px;
+}
+
+.bookBar{
+  background: #33CD5F;
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 48%;
 }

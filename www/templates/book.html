@@ -1,0 +1,57 @@
+<ion-view view-title="Booking">
+  <ion-content scroll="true" overflow-scroll="false">
+    <div ng-repeat="activity in activities | filter: {productId: specificActivity}">
+
+      <ion-list>
+        <ion-item class="item-thumbnail-left item-text-wrap">
+          <img class="pic" ng-src={{activity.mediumSizeUrl}} alt="no image">
+          <h2>{{activity.productName| limitTo:50}}
+            {{activity.productName > 50 ? '&hellip;' : ''}}</h2>
+          <h4>{{activity.distanceDescription}}</h4>
+          <p>{{titleDescription | limitTo:140}}
+            {{titleDescription.length > 150 ? '&hellip;' : ''}}</p>
+        </ion-item>
+      </ion-list>
+
+      <div class="card list">
+        <div class="item item-divider">
+          <h3>Booking Summary:</h3>
+        </div>
+
+        <div class="list">
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">First Name</span>
+            <input type="text" ng-model="firstName" placeholder="First Name">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Last Name:</span>
+            <input type="text" ng-model="lastName" placeholder="Last Name">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Email:</span>
+            <input type="text" ng-model="email" placeholder="Email">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Number of People:</span>
+            <input type="text" ng-model="nofPeople" placeholder="Number of people">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Date:</span>
+            <input type="date" ng-model="date">
+          </label>
+        </div>
+
+        <div class="item item-divider">
+          <div class="row">
+            <div class="col text-center">
+              <button class="button button-balanced">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
