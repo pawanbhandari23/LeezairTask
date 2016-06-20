@@ -1,23 +1,21 @@
 <ion-view view-title="Detail">
-  <ion-content scroll="true" overflow-scroll="false" class="has-footer">
-    <div class="item item-image" ng-repeat="activity in activities | filter: {productId: specificActivity}">
-      <img class="imageDetail" ng-src={{activity.mediumSizeUrl}}>
-      <ion-item class="item item-text-wrap provider">
-        {{activity.productName}}
-        <span>@ ${{activity.advertisedPrice}}PP, in <span ng-bind="getCity(activity.timeZone)"></span></span>
-        </br>
-        <span>Offered By: </span>
-        <h2>{{provider}}</h2>
-      </ion-item>
-      <ion-item class="item item-text-wrap">
-        <h2 class="caption">Detail:</h2>
-        <div ng-bind-html="description"></div>
-      </ion-item>
+  <ion-content scroll="true" overflow-scroll="false">
+    <div ng-repeat="activity in activities | filter: {productId: specificActivity}">
+     <div class="mainContainer">
+       <div class= "imageContainer">
+          <img class="image" src="{{activity.mediumSizeUrl}}" alt="no image">
+       </div>
+     </div>
+      <a href="#/app/book/{{specificActivity}}"><span class="Button">Book</span></a>
+      <div class="putHeading">
+        <p class="event">{{activity.productName}}</p>
+        <p ng-bind="getCity(activity.timeZone)" class="place"></p>
+        <p class="cost">${{activity.advertisedPrice}}</p>
+      </div>
+      <div class="bottom">
+        <p class="tex">{{provider}}</p>
+        <p ng-bind-html="description"></p>
+      </div>
     </div>
   </ion-content>
-
-  <a class="bar bar-footer bookBar" href="#/app/book/{{specificActivity}}">
-    <span>Book</span>
-  </a>
-
 </ion-view>

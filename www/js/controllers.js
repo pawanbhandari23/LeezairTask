@@ -28,6 +28,12 @@ angular.module('starter.controllers', [])
         return finalStr;
       }
     });
+
+    $scope.book = function($location, $state, b){
+      console.log("test");
+      $state.go('');
+
+    }
   })
 
 

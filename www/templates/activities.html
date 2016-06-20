@@ -7,7 +7,8 @@
             <img class="imgbox" ng-src={{activity.mediumSizeUrl}} alt="no image">
           </div>
           <div class="details">
-            <h3 class="mainHead">{{activity.productName}}</h3>
+            <h3 class="mainHead">{{activity.productName | limitTo:35}}
+              {{activity.productName.length > 35 ? '&hellip;' : ''}}</h3>
             <p class="subHead" ng-bind="getCity(activity.timeZone)"></p>
           </div>
           <p class="price">${{activity.advertisedPrice}}</p>
